@@ -1,0 +1,6 @@
+# Terraform private bits
+.terraform/*
+*.tfvars
+*.tfstate
+*.tfstate.backup
+*.plan

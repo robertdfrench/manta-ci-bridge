@@ -1,0 +1,14 @@
+{
+  "name": "manta-ci-bridge",
+  "version": "1.0.0",
+  "description": "Run CI tasks on Manta in response to GitHub Pull Requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc"
+  },
+  "author": "Robert D. French",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}

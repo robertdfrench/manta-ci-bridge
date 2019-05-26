@@ -7,8 +7,9 @@
 		"type": "triton",
 		"triton_account": "{{user `triton_account`}}",
 		"triton_key_id": "{{user `triton_key_id`}}",
+		"triton_url": "https://us-east-3.api.joyent.com",
 		"source_machine_name": "manta-ci-bridge-image-builder",
-		"source_machine_package": "g4-highcpu-128M",
+		"source_machine_package": "g4-highcpu-512M",
 		"source_machine_image_filter": {
 			"name": "base-64",
 			"type": "zone-dataset",

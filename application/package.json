@@ -9,6 +9,7 @@
   "author": "Robert D. French",
   "license": "MPL-2.0",
   "dependencies": {
-    "express": "^4.17.0"
+    "express": "^4.17.0",
+    "pg": "^7.11.0"
   }
 }

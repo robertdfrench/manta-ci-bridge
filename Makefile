@@ -2,9 +2,15 @@ include lib.mk
 
 .PHONY: deploy
 
-install:  ## Deploy changes to Triton
+deploy:  ## Deploy changes to Triton
 	$(MAKE) -C infrastructure deploy
 
 check:  ## Lint and Test
 	$(MAKE) -C infrastructure plan
-	$(MAKE) -C application test
+
+install: node_modules/latest ## Gather dependencies
+	$(info Done!)
+
+node_modules/latest: package.json package-lock.json $(npm)
+	$(npm) install
+	@touch $@

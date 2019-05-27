@@ -1,2 +1,2 @@
-# manta-ci-bridge
-Run CI jobs in Manta when trigger by Pull Requests
+# Manta CI Bridge
+Run CI jobs in Manta when triggered by Pull Requests.

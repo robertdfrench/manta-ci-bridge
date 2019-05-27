@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 PATH=$PATH:/opt/local/bin:/usr/sbin
 pkgin update
-pkgin -y install git
+pkgin -y install git gmake
 
 pkgin -y install apache
 svcadm enable -r svc:/pkgsrc/apache:default
